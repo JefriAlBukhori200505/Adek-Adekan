@@ -1,0 +1,31 @@
+name: mojek_frontend
+description: "MOJEK - aplikasi ojek online untuk mahasiswa (prototipe)."
+publish_to: 'none'
+
+version: 0.2.0+2
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  hive_ce_flutter: ^2.3.4
+
+  # Peta (OpenStreetMap, tanpa API key) dan lokasi.
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.2
+
+  # Hash kata sandi (mode demo lokal).
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
